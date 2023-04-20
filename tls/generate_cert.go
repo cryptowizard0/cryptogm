@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build ignore
 // +build ignore
 
 // Generate a self-signed X.509 certificate for a TLS server. Outputs to
@@ -14,7 +15,6 @@ import (
 	"crypto/elliptic"
 	"crypto/rand"
 	"crypto/rsa"
-	"github.com/cetcxinlian/crypto/x509"
 	"crypto/x509/pkix"
 	"encoding/pem"
 	"flag"
@@ -25,6 +25,8 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/cetcxinlian/cryptogm/x509"
 )
 
 var (
