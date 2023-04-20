@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cetcxinlian/cryptogm/x509"
+	"github.com/cryptowizard0/cryptogm/x509"
 )
 
 var (

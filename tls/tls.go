@@ -17,12 +17,13 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/cetcxinlian/cryptogm/sm2"
-	"github.com/cetcxinlian/cryptogm/x509"
 	"io/ioutil"
 	"net"
 	"strings"
 	"time"
+
+	"github.com/cryptowizard0/cryptogm/sm2"
+	"github.com/cryptowizard0/cryptogm/x509"
 )
 
 // Server returns a new TLS server side connection

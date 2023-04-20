@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cetcxinlian/cryptogm/x509"
+	"github.com/cryptowizard0/cryptogm/x509"
 )
 
 func TestServer(t *testing.T) {
